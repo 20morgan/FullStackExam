@@ -1,0 +1,18 @@
+{#{% extends 'base_navbar.html' %}#}
+{% load static %}
+<head>
+    <link rel="stylesheet" type="text/css" href="static/moviestyle.css"/>
+    <title>MovieApp</title>
+</head>
+{% block content %}
+    {% for thing in object_list %}
+            <ul>
+            <li class="title">Movie Title: {{ thing.title}}</li>
+            <li class="genre">Genre: {{ thing.genre}}</li>
+            <li class="rating"> Rating: (%): {{ thing.rating}}%</li>
+            <li class="director">Director: {{ thing.director}}</li>
+            </ul>
+            <hr>
+        {% endfor %}
+    <button onclick="window.location.href = '/movies/new';">Click Here to Add Movie!</button>
+{% endblock %}
