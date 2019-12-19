@@ -4,7 +4,7 @@
     <link rel="stylesheet" type="text/css" href="{% static 'movies/moviestyle.css' %}">
     {% for thing in object_list %}
             <ul>
-            <li class="title">Movie Title: {{ thing.title}}</li>
+            <a class="title">{{ thing.title}}</a>
             <li class="other">Genre: {{ thing.genre}}</li>
             <li class="other"> Rating (%): {{ thing.rating}}%</li>
             <li class="other">Director: {{ thing.director}}</li>
