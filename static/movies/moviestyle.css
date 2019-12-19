@@ -1,0 +1,20 @@
+.title{
+    font-size: xx-large;
+    font-family: "Comic Sans MS";
+}
+
+.name{
+    font-size: xx-large;
+    font-family: "Comic Sans MS";
+    color: yellow;
+}
+
+.other{
+    font-size: x-large;
+    font-family: "Comic Sans MS";
+    color: rebeccapurple;
+}
+
+body{
+    background-color: lightgray;
+}

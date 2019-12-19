@@ -1,0 +1,40 @@
+.title{
+    font-size: xx-large;
+    font-family: "Times New Roman", sans-serif;
+}
+
+a.name{
+    font-size: xx-large;
+    font-family: "Times New Roman", sans-serif;
+    color: yellow;
+}
+
+.other{
+    font-size: x-large;
+    font-family: "Times New Roman", sans-serif;
+    color: rebeccapurple;
+}
+
+body{
+    background-color: lightgray;
+}
+
+.titleform{
+    font-family: "Times New Roman", sans-serif;
+    font-size: xx-large;
+}
+
+.genreform{
+    font-family: "Times New Roman", sans-serif;
+    font-size: medium;
+}
+
+.ratingform{
+    font-family: "Times New Roman", sans-serif;
+    font-size: medium;
+}
+
+.directorform{
+    font-family: "Times New Roman", sans-serif;
+    font-size: medium;
+}
